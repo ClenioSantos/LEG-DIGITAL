@@ -1,0 +1,174 @@
+body {
+ background-color: #74ddff;
+}
+
+
+.emergencia {
+  background-color: #74ddff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.emergencia .brasao {
+  position: absolute;
+  width: 140px;
+  height: 112px;
+  top: 70px;
+  left: 126px;
+  object-fit: cover;
+}
+
+.emergencia .energisa {
+  display: flex;
+  flex-direction: column;
+  width: 174px;
+  height: 106px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  position: absolute;
+  top: 578px;
+  left: 205px;
+  background-color: #00568c;
+  border-radius: 17px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.emergencia .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: var(--button-button-font-family);
+  font-weight: var(--button-button-font-weight);
+  color: #ffffff;
+  font-size: var(--button-button-font-size);
+  text-align: center;
+  letter-spacing: var(--button-button-letter-spacing);
+  line-height: var(--button-button-line-height);
+  font-style: var(--button-button-font-style);
+}
+
+.emergencia .deso {
+  display: flex;
+  flex-direction: column;
+  width: 174px;
+  height: 106px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  position: absolute;
+  top: 578px;
+  left: 16px;
+  background-color: #00568c;
+  border-radius: 17px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.emergencia .hospital {
+  display: flex;
+  flex-direction: column;
+  width: 174px;
+  height: 106px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  position: absolute;
+  top: 459px;
+  left: 205px;
+  background-color: #00568c;
+  border-radius: 17px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.emergencia .bombeiro {
+  display: flex;
+  flex-direction: column;
+  width: 174px;
+  height: 106px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  position: absolute;
+  top: 459px;
+  left: 16px;
+  background-color: #00568c;
+  border-radius: 17px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.emergencia .policia {
+  display: flex;
+  flex-direction: column;
+  width: 174px;
+  height: 106px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  position: absolute;
+  top: 340px;
+  left: 205px;
+  background-color: #00568c;
+  border-radius: 17px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.emergencia .samu {
+  display: flex;
+  flex-direction: column;
+  width: 174px;
+  height: 106px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  position: absolute;
+  top: 340px;
+  left: 16px;
+  background-color: #00568c;
+  border-radius: 17px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.emergencia .voltar {
+  top: 16px;
+  left: 16px;
+  position: absolute;
+  width: 47px;
+  height: 47px;
+}
+
+.emergencia .voltar-button {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 47px;
+  height: 47px;
+}
+
+.emergencia .text-wrapper-2 {
+  position: absolute;
+  width: 205px;
+  top: 225px;
+  left: 94px;
+  font-family: var(--headline-h4-font-family);
+  font-weight: var(--headline-h4-font-weight);
+  color: #ffffff;
+  font-size: var(--headline-h4-font-size);
+  text-align: center;
+  letter-spacing: var(--headline-h4-letter-spacing);
+  line-height: var(--headline-h4-line-height);
+  font-style: var(--headline-h4-font-style);
+}
